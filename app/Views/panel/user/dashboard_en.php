@@ -1,6 +1,7 @@
 <?= $this->extend('template/en') ?>
 <?= $this->section('content') ?>
 <main>
+    <button class="btn btn-info">Create Article</button>
     <?php if(count($articles)) : ?>
         <table class="table">
             <thead>

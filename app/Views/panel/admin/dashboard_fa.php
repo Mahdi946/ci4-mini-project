@@ -1,6 +1,7 @@
 <?= $this->extend('template/fa') ?>
 <?= $this->section('content') ?>
 <main>
+    <button class="btn btn-info">ساخت مقاله</button>
     <div class="container">
         <div class="row">
             <div class="col-6">

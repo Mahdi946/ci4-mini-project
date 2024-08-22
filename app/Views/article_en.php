@@ -21,7 +21,7 @@
             <button type="submit">Submit</button>
         </form>
         <form action="/samplearticle" method="get">
-            <button class="btn btn-info" id="dnlSample" type="submit">دانلود نمونه فایل</button>
+            <button class="btn btn-info" id="dnlSample" type="submit">Download SampleFile</button>
         </form>
         <?php if(isset($success)) : ?>
             <p class="text-success font-weight-bold">Submit Successfully<?= $success ?></p>

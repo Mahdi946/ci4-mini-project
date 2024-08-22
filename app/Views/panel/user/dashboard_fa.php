@@ -1,6 +1,7 @@
 <?= $this->extend('template/fa') ?>
 <?= $this->section('content') ?>
     <main>
+        <button class="btn btn-info">ساخت مقاله</button>
         <?php if(count($articles)) : ?>
         <table class="table">
             <thead>
